@@ -1,0 +1,98 @@
+@media screen and (max-width: 1410px) {
+  #container {
+    font-size: 29%;
+  }
+
+  .home-right img {
+    height: 500px;
+    width: 600px;
+  }
+
+  #container h1 {
+    font-size: 5.3rem;
+  }
+}
+
+@media screen and (max-width: 1165px) {
+
+  #HOME {
+    height: auto;
+  }
+
+  .home-right {
+    position: unset;
+    margin: 0 2.5vw;
+  }
+
+  .home-right img {
+    width: 95vw;
+  }
+
+  #container {
+    max-width: 70%;
+    position: unset;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #Search-Container{
+    position: unset;
+
+
+    width: 80%;
+    margin: 80px auto 30px;
+  }
+
+  nav{
+    width: 100vw;
+    display: block;
+    align-items: center;
+    padding: 0;
+    background-color: #4bffb1;
+
+    position: fixed;
+    z-index: 2;
+  }
+
+  .left{
+    margin: 20px 0 20px 50px;
+  }
+
+  .left h2{
+    font-size: 1.8rem;
+  }
+
+  ul{
+    margin: 0;
+    padding-top: 30px;
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(196, 163, 241);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  ul li{
+    padding: 10px;
+    font-size: 1.5rem;
+  }
+
+  
+  .right img{
+    display: none;
+  }
+
+  .bar{
+    font-size: 2rem;
+    position: absolute;
+    right: 0px;
+    top: 23px;
+  }
+
+  #check:checked ~ ul{
+    background-color: black;
+  }
+
+}
