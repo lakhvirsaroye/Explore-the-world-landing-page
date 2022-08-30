@@ -20,7 +20,7 @@
 
             <div class="center-right">
                 <div class="center">
-                    <ul>
+                    <ul id="nav_menu">
                         <li><a href="404.html">Destinantion</a></li>
                         <li><a href="#Services">Services</a></li>
                         <li><a href="404.html">About us</a></li>
@@ -38,7 +38,7 @@
             </div>
 
             <div class="check-box">
-                <input type="checkbox" id="check">
+                <input type="checkbox" id="check" onclick="myFunction()">
             </div>
         </nav>
 
@@ -104,6 +104,15 @@
             </div>
         </div>
     </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#bars').click( function() {
+            $('.nav_menu').slideToggle();
+        });
+    </script>
 
 </body>
 
